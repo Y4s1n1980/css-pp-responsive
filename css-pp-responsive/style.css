@@ -1,0 +1,232 @@
+@media screen, (max-width :450px) 
+{
+
+  body{
+      background-color  : black;
+      margin: 10px;
+  }
+
+
+/*@media screen, (max-width :....px) recuerda que se pone antes de cada section para dejar claro para que tipo de despositivo se trabaja*/
+/*telf*/
+
+  #heading{
+      display        : flex;
+      flex-direction : column;
+      width          : 100%;
+      margin-top     : 7px;
+  }
+
+  #header {
+      width             : 100%;
+      height            : 90px;
+      color             : white;
+      font-size         : 30px;
+      background-color  : #33CCFF;
+      font-size         : 20px;
+      margin-top        : 3px;
+  }
+
+  p {
+      margin-top   : 12px;
+      margin-left  : 12px;
+      margin-right : 10px;
+      font-size    : 15px;
+  }
+
+  #hero {
+      width             : 100%;
+      height            : 110px;
+      color             : white;
+      font-size         : 30px;
+      background-color  : red;
+      font-size         : 30px;
+      margin-top        : 3px;
+  }
+
+  #content {
+      width            : 100%;
+      height           : 285px;
+      color            : white;
+      font-size        : 30px;
+      background-color : green;
+      margin-top       : 3px;
+      padding-top      : 1px;
+      padding-bottom   : 15px;
+  }
+
+  #sidebar {
+      width: 100%;
+      height           : 140px;
+      color            : white;
+      font-size        : 30px;
+      background-color : #7400E1;
+      margin-top       : 3px;
+      padding-top      : 1px;
+
+  }
+
+  #footer {
+      width             : 100%;
+      height            : 180px;
+      font-size         : 30px;
+      color             : white;
+      background-color  : #808080;
+      margin-top        : 3px;
+      padding-top       : 1px;
+  }
+
+}
+
+
+
+/*tablet*/
+@media ( min-width: 451px ) {
+
+  body{
+      background-color: black;
+      margin: 12px;
+  }
+
+  #heading{
+      display        : flex;
+      flex-direction : column;
+      width          : 100%;
+      margin-top     : 7px;
+  }
+
+  #header {
+      width             : 100%;
+      height            : 80px;
+      color             : white;
+      font-size         : 30px;
+      background-color  : #33CCFF;
+      font-size         : 20px;
+      margin-top        : 3px;
+
+  }
+
+  #hero {
+      width             : 100%;
+      height            : 110px;
+      color             : white;
+      font-size         : 30px;
+      background-color  : red;
+      font-size         : 30px;
+      margin-top        : 3px;
+
+  }
+
+  #contenedor{
+      display: flex;
+      flex-direction: row;
+  }
+
+  #content {
+      width            : 60%;
+      height           : 450px;
+      color            : white;
+      font-size        : 30px;
+      background-color : green;
+      margin-top       : 3px;
+  }
+
+  #sidebar {
+      width            : 40%;
+      height           : 465px;
+      color            : white;
+      font-size        : 30px;
+      background-color : #7400E1;
+      margin-top       : 3px;
+      margin-left      : 3px;
+
+  }
+
+  #footer {
+      width             : 100%;
+      height            : 165px;
+      font-size         : 30px;
+      color             : white;
+      background-color  : #808080;
+      margin-top        : 3px;
+  }
+
+}
+
+
+
+/*ordenador 1024px*/
+@media (min-width: 1024px) {
+
+  body{
+      background-color: black;
+  }
+
+  #heading{
+      display: flex;
+      flex-direction: column;
+      width     : 100%;
+      margin-top: 7px;
+  }
+
+  #header {
+      width             : 100%;
+      height            : 140px;
+      color             : white;
+      font-size         : 30px;
+      background-color  : #33CCFF;
+      font-size         : 20px;
+      margin-top        : 3px;
+
+  }
+
+  #hero {
+      width             : 100%;
+      height            : 160px;
+      color             : white;
+      font-size         : 30px;
+      background-color  : red;
+      font-size         : 30px;
+      margin-top        : 3px;
+
+  }
+
+  #contenedor{
+      display: flex;
+      flex-direction: row;
+      width : 85%;
+      margin: auto;
+  }
+
+  #content {
+      width            : 70%;
+      height           : 500px;
+      color            : white;
+      font-size        : 30px;
+      background-color : green;
+      margin-top       : 3px;
+
+  }
+
+  #sidebar {
+      width: 40%;
+      height           : 515px;
+      color            : white;
+      font-size        : 30px;
+      background-color : #7400E1;
+      margin-top       : 3px;
+      margin-left      : 3px;
+
+  }
+
+  #footer {
+      width             : 100%;
+      height            : 190px;
+      font-size         : 30px;
+      color             : white;
+      background-color  : #808080;
+      margin-top        : 3px;
+      margin-bottom     : 5%
+  }
+
+}
